@@ -28,8 +28,7 @@ The Bad Smells:
 11. Oddball Solutions
 
 Code Refactoring Part 1:
-[FootballPlayer](https://github.com/20b2122/Code_Refactoring/blob/main/FootballPlayer.java)
-[FootballPlayer2](https://github.com/20b2122/Code_Refactoring/blob/main/FootballPlayer2.java)
+[FootballPlayer](https://github.com/20b2122/Code_Refactoring/blob/main/FootballPlayer.java) and [FootballPlayer2](https://github.com/20b2122/Code_Refactoring/blob/main/FootballPlayer2.java)
 
 Code Refactoring Part 2:
 [FootballPlayer40YardDashInfo](https://github.com/20b2122/Code_Refactoring/blob/main/FootballPlayer40YardDashInfo.java)
