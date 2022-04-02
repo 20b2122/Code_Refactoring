@@ -36,4 +36,4 @@ Code Refactoring Part 2 (Extrating Methods):
 - [FootballPlayer40YardDashInfo](https://github.com/20b2122/Code_Refactoring/blob/main/FootballPlayer40YardDashInfo.java)
 
 Code Refactoring Part 3 (Using Variables to Write Understandable Code):
-- [Product](https://github.com/20b2122/Code_Refactoring/blob/main/Product.java)
+- [Product and Store](https://github.com/20b2122/Code_Refactoring/blob/main/part_3.md)
