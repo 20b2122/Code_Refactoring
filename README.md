@@ -27,6 +27,7 @@ The Bad Smells:
 10. Combinatorial Explosions
 11. Oddball Solutions
 
+----
 Code Refactoring Part 1 (Creating Methods, and Avoide Dublications and Chain Constructors):
 - [FootballPlayer](https://github.com/20b2122/Code_Refactoring/blob/main/FootballPlayer.java) 
 - [FootballPlayer2](https://github.com/20b2122/Code_Refactoring/blob/main/FootballPlayer2.java)
