@@ -40,7 +40,7 @@ public class Product {
 			
 		}
 		
-		/* BAD CODE 1
+		/* BAD CODE 1 - a lot is going on and hard to see what is happening
 		if((quantity > 50) || ((quantity * price) > 500)) {
 			quantityDiscount = .10;
 			
