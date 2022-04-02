@@ -1,8 +1,8 @@
 # Code_Refactoring
 
 What is refactoring?
-	- Refactoring makes code understandable and easy to extend
-	- Refactoring makes it quicker to create complicated systems
+- Refactoring makes code understandable and easy to extend
+- Refactoring makes it quicker to create complicated systems
 
 Why should you refactor?
 	- Remove excess code so it is easier to understand and modify
