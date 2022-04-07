@@ -37,3 +37,24 @@ Code Refactoring Part 2 (Extrating Methods):
 
 Code Refactoring Part 3 (Using Variables to Write Understandable Code):
 - [Product and Store](https://github.com/20b2122/Code_Refactoring/blob/main/part_3.md)
+
+Code Refactoring Part 4 (Extracting Methods, Fields, and Classes):
+- [Customer](https://github.com/20b2122/Code_Refactoring/blob/main/Customer.java)
+
+Code Refactoring Part 5 (Replacing Constructors with Factory Methods and More):
+- [part_5](https://github.com/20b2122/Code_Refactoring/blob/main/part_5.md)
+
+Code Refactoring Part 6 (Simplifying Conditionals and Replacing Them with Polymorphism and The Strategy Pattern):
+- [part_6](https://github.com/20b2122/Code_Refactoring/blob/main/part_6.md)
+
+Code Refactoring Part 7 (Replacing Conditionals with the Strategy Pattern):
+- [part_7](https://github.com/20b2122/Code_Refactoring/blob/main/part_7.md)
+
+Code Refactoring Part 8 (Eliminate Duplicate Code with the Template Method):
+- [part_8](https://github.com/20b2122/Code_Refactoring/blob/main/part_8.md)
+
+Code Refactoring Part 9 (Replace Implied Primitive Trees with the Composite Pattern):
+- [part_9](https://github.com/20b2122/Code_Refactoring/blob/main/part_9.md)
+
+Code Refactoring Part 10 (Revisiting the Builder Design Pattern):
+- [part_10](https://github.com/20b2122/Code_Refactoring/blob/main/part_10.md)
