@@ -23,10 +23,9 @@ public class Product {
 		
 		double quantityDiscount = 0.0;
 		
-		// If your expressions become complicated it may make more sense to save
-		// them in temporary variables (Explaining Variables)
-		
-		final boolean over50Products = (quantity > 50) || ((quantity * price) > 500);
+		// save them using explaining variable - when having expressions that are complicated
+		// final - so that it will only have one value per itertion
+		final boolean over50Products = (quantity > 50) || ((quantity * price) > 500); 
 		final boolean over25Products = (quantity > 25) || ((quantity * price) > 100);
 		final boolean over10Products = (quantity >= 10) || ((quantity * price) > 50);
 		
@@ -41,7 +40,7 @@ public class Product {
 			
 		}
 		
-		/* BAD CODE 1 - a lot is going on and hard to see what is happening
+		/* // BAD CODE 1 - a lot is going on and hard to see what is happening
 		if((quantity > 50) || ((quantity * price) > 500)) {
 			quantityDiscount = .10;
 			
@@ -79,31 +78,20 @@ public class Store{
 	public void getCostOfProducts(){
 		
 		for(Product product : theProducts){
-			
-			// You can also use an explaining variable for complicated calculations
-			// It may however be better to extract this code into a method though
-			// to separate it from the method
-			
-			// final is used to make sure the temp only has 1 value per iteration
-			// It is bad practice to assign different values to a temp
-			
 			final int numOfProducts = product.getQuantity();  
 			final String prodName = product.getName();
 			final double cost = product.getTotalCost();
 			
+			// use an explaining variable for complicated calculations
 			final double costWithDiscount = product.getTotalCost() / product.getQuantity();
 			final double costWithoutDiscount = product.getPrice() + product.getShippingCost();
 			
 			System.out.println("Total cost for " + numOfProducts + " " + prodName + "s is $" + cost);
-			
 			System.out.println("Cost per product " + costWithDiscount);
-			
-			System.out.println("Savings per product " + (costWithoutDiscount - costWithDiscount));
-			
-			System.out.println();
+			System.out.println("Savings per product " + (costWithoutDiscount - costWithDiscount) + "\n");
 			
 			
-			/* BAD CODE 2
+			/* // BAD CODE 2 - the code is very long and hard to read
 			System.out.println("Total cost for " + product.getQuantity() + " " + product.getName() + "s is $" + product.getTotalCost());
 			
 			System.out.println("Cost per product " + product.getTotalCost() / product.getQuantity());
@@ -128,11 +116,9 @@ public class Store{
 		cornerStore.getCostOfProducts();
 		
 	}
-	
-	// BAD CODE 3
-	// Why Is it Bad to Assign Many Values to a Temp?
-	
-	/*
+
+	/* // BAD CODE 3 - Why Is it Bad to Assign Many Values to a Temp?
+	// because the name is not descriptive and possible to forget what it means
 	double temp = totalCost / numberOfProducts;
 	
 	temp = temp + shipping;
@@ -143,11 +129,8 @@ public class Store{
 	temp = temp - discount;
 	*/
 	
-	
-	
-	// BAD CODE 4
-	// Don't assign values to parameters either
-	/*
+	/* // BAD CODE 4 - Don't assign values to parameters 	
+	// because the name is not descriptive and possible to forget what it means
 	public double getTotPrice(double quantity, double price, double shippingCost, double discount) {
 		
 		price = price + shippingCost;
