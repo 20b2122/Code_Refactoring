@@ -1,4 +1,4 @@
-# Code_Refactoring
+# Code Refactoring
 
 What is refactoring?
 - Refactoring makes code understandable and easy to extend
